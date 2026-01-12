@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 //here we import navbar compnent in app.jsx folder and below in App function  we Mount navbar compnents
-import Navbar from './components/navbar/Navbar'
+import Navbar from './Components/navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 //here we mount the home page,cart page and placeorder pages here
 import Home from './pages/Home/Home'
