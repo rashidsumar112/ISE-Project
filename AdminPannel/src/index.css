@@ -1,0 +1,34 @@
+/*.......... css for whole project........ */
+/*this link for out-fit font that we use in navbar list form google */
+@import url('https://fonts.googleapis.com/css2?family=outfit:wght@100..900&dislay=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+ 
+}
+body{
+  min-height: 100vh;
+  background-color: #fcfcfc;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #a9a9a9;
+}
+/* //this for sidebar div in app components */
+.app-content{
+ display: flex;
+}
+/* //this for form tag classname in add page */
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
