@@ -1,0 +1,32 @@
+/*.......... css for whole project........ */
+/*this link for out-fit font that we use in navbar list form google */
+@import url('https://fonts.googleapis.com/css2?family=outfit:wght@100..900&dislay=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: outfit;
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+/*FadeIn effect for header-Content when we reload pages our herder content will be displayed smoothly for this we add a keyframe*/
+@keyframes  fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
